@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat-Regular';
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../font/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../font/Montserrat-Bold.ttf');
+}
+
+.container {
+    max-width: 1322px;
+    padding-left: 155px;
+    padding-right: 155px;
+    margin: 0 auto;
+    width: 100%;
+}
+.section1{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    background-color: #26335D;  
+    /* height: 804px; */
+    max-width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+    .half-section{   
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .col-lg-6,
+    .col-md-6 {
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+
+    }
+    .col-lg-6 img,
+    .col-md-6 img {
+        max-width: 100%;
+        object-fit: cover;
+
+    }
+    .col-lg-6 img,
+    .col-md-6 img {
+        width: 405px;
+        height: 418px;
+    
+    }
+
+.border{
+    border: 4px solid #E74040;
+    width: 94px;
+    height: 7px;
+}
+.txt{
+    color: white;
+    padding-top: 30px;
+    font-family: 'Montserrat-Bold';
+    font-size: 20px;
+}
+.txt1{
+    color:#8D5CF6 ;
+    padding-top: 30px;
+    font-family: 'Montserrat-Bold';   
+}
+.txt1 a{
+    color: #8D5CF6;
+    font-family: 'Montserrat-Bold' ;
+    text-decoration: none;
+}
+.txt1 a:hover{
+    text-decoration: underline;
+
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #26335D;  
+    /* height: 700px; */
+    max-width: 100%;
+}
+.box{
+    align-items: center;
+    width: 500px;
+    height: 379px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}   
+.main-box{
+    display: flex;
+    padding-top: 50px;
+    gap: 30px;
+}
+.img1{
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.txt2{
+    color: #737373;
+    text-align: center;
+    font-family:'Montserrat-Bold';
+    max-width: 100%;
+    padding: 15px 60px;
+}
+.txt3{
+    font-size: 20px;
+    color: black;
+    font-family:'Montserrat-Bold';
+    padding-top: 20px;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    /* height: 800px; */
+}
+.main-button{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    
+}
+.button {
+    padding: 10px;
+    border: none;
+    background-color: #0CBBC7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 117px;
+    height: 37px;
+}
+
+.button a {
+    text-decoration: none;
+    color:white;
+}
+.button1{
+    padding: 10px;
+    border: 2px solid  #0CBBC7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 217px;
+    height: 37px;
+}
+.button1 a{
+    text-decoration: none;
+    color: #0CBBC7;
+}
+.half-section1{
+    display: flex;
+    justify-content: space-between;
+}
+.section4{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    background-color: #26335D;  
+    height: 804px;
+    max-width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.col-lg-6 video,
+.col-md-6 video {
+    max-width: 100%;
+    object-fit: cover;
+    position: relative;
+
+}
+.col-lg-6 video,
+.col-md-6 video {
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+.playbutton {
+    font-size: 100px;
+    display: grid;
+    width: 92.6px;
+    height: 92.6px;
+    place-items: center;
+    color: grey;
+    cursor: pointer;
+    background-color:transparent;
+    border-radius: 73.6px;
+    animation: 1.3 ease infinite;
+    border: none;
+    margin-left: 168px;
+    position: absolute;
+    margin-top: -190px;
+
+}
+
+.playicon {
+    display: inline-block;
+    border-left: 0.3em solid;
+    border-top: 0.18em solid transparent;
+    border-bottom: 0.18em solid transparent;
+    margin-right: 0.08em;
+}
+
+.playbutton:hover {
+    background: transparent;
+}
+
+@media (max-width: 768px) {
+    .container{
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+    .half-section1{
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container{
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+    .half-section{
+        flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 768px) {
+    .container{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    
+    .main-box{
+        flex-wrap: wrap;
+    }
+    .box{
+        flex-wrap: wrap;
+    }
+  }
